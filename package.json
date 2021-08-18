@@ -1,0 +1,19 @@
+{
+  "name": "grade-calculator",
+  "version": "1.0.0",
+  "description": "A calculator that calculates grades of a student on 4 different subjects",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamzayt577/grade-calculator.git"
+  },
+  "author": "Hamza Shaikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamzayt577/grade-calculator/issues"
+  },
+  "homepage": "https://github.com/hamzayt577/grade-calculator#readme"
+}
