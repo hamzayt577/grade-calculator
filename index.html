@@ -4,10 +4,61 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/style.css" />
-    <title>Document</title>
+    <title>Grade Calculator</title>
   </head>
   <body>
+    <div class="container center">
+      <div class="heading">
+        <p>Student Grade Calculator</p>
+      </div>
+      <div class="input-grades">
+        <input
+          class="math-grade-input grade-input"
+          type="number"
+          placeholder="Math"
+          min="0"
+          max="100"
+        />
+        <input
+          class="science-grade-input grade-input"
+          type="number"
+          placeholder="Science"
+          min="0"
+          max="100"
+        />
+        <input
+          class="english-grade-input grade-input"
+          type="number"
+          placeholder="English"
+          min="0"
+          max="100"
+        />
+        <input
+          class="computer-grade-input grade-input"
+          type="number"
+          placeholder="Computer"
+          min="0"
+          max="100"
+        />
+        <button class="show-percentage">Show percentage</button>
+      </div>
+      <div class="result">
+        <p class="result-p">
+          <b
+            >Out of 400, your total is 296 and percentage is 74%. Your grade is
+            B. You are Pass.</b
+          >
+        </p>
+      </div>
+    </div>
+
     <script src="/script.js"></script>
   </body>
 </html>
